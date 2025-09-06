@@ -7,19 +7,27 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(#f6d5f7,#fbe9d7);
 }
 #parent{
-    border-radius: 10px;
+    border-radius: 20px;
     height: 500px;
     width: 900px;
     border: 2px solid black;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    background: linear-gradient(#fbe9d7,#f6d5f7);
+    box-shadow: 10px 10px 10px rgb(103, 98, 98);
+
 }
 button{
     margin-top: 12px;
     border-radius: 10px;
+}
+button:hover{
+    height: 50px;
+    width: 100px;
 }
 #parent div{
     white-space: nowrap;
