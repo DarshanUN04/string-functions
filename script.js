@@ -42,7 +42,7 @@ btn.addEventListener("click",function(){
             }
         }
         else{
-            temp2=" ";
+            temp2="NA";
             output4.textContent=temp2;
             break;
         }
@@ -96,4 +96,5 @@ btn.addEventListener("click",function(){
 
 
 })
+
 
